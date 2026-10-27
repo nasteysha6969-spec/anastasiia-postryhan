@@ -1,0 +1,239 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>TiriVelo case study</title>
+  <meta name="description" content="Auditing and redesigning the booking and payment experience for an early-stage pet care marketplace in Canada.">
+  <link rel="canonical" href="https://anastasiia-postryhan.vercel.app/tirivelo.html">
+  <meta name="theme-color" content="#EEF3E1">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Anastasiia Postryhan">
+  <meta property="og:title" content="TiriVelo case study by Anastasiia Postryhan">
+  <meta property="og:description" content="Auditing and redesigning the booking and payment experience for an early-stage pet care marketplace in Canada.">
+  <meta property="og:url" content="https://anastasiia-postryhan.vercel.app/tirivelo.html">
+  <meta property="og:image" content="https://anastasiia-postryhan.vercel.app/assets/og/default.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta name="twitter:image" content="https://anastasiia-postryhan.vercel.app/assets/og/default.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="TiriVelo case study by Anastasiia Postryhan">
+  <meta name="twitter:description" content="Auditing and redesigning the booking and payment experience for an early-stage pet care marketplace in Canada.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Instrument+Serif:ital@0;1&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css?v=23">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="favicon-32.png" type="image/png" sizes="32x32">
+  <link rel="apple-touch-icon" href="apple-touch-icon.png">
+</head>
+<body>
+
+  <header class="header">
+    <div class="wrap header__inner">
+      <a href="index.html" class="logo">Anastasiia P.</a>
+      <nav class="nav">
+        <a href="index.html#work">Work</a>
+        <a href="about.html">About</a>
+        <a href="https://uk.linkedin.com/in/anastasiia-postryhan-ux" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        <a href="#contact" class="btn btn--dark">Let's talk <span class="btn__dot">→</span></a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="cs-hero">
+      <div class="wrap">
+        <a href="index.html#work" class="back">← All work</a>
+        <p class="cs-hero__num">Case 02</p>
+        <h1 class="cs-hero__title">TiriVelo</h1>
+        <p class="cs-hero__sub">Turning checkout into confident bookings for an early-stage pet care marketplace.</p>
+
+        <dl class="meta">
+          <div><dt>Role</dt><dd>UX/UI design intern</dd></div>
+          <div><dt>Company</dt><dd>Pet care startup, Canada</dd></div>
+          <div><dt>Timeline</dt><dd>3 months · 2026</dd></div>
+          <div><dt>Team</dt><dd>Designers, team lead, founder</dd></div>
+          <div><dt>Tools</dt><dd>Figma</dd></div>
+        </dl>
+      </div>
+    </section>
+
+    <div class="wrap">
+      <div class="cover-d cover-d--wide">
+        <span class="cover-d__num">02</span>
+        <ol class="flow" aria-label="How the work went">
+          <li>Team audit</li>
+          <li>My scope</li>
+          <li>Redesign</li>
+          <li>Weekly reviews</li>
+          <li>Dev handoff</li>
+        </ol>
+      </div>
+
+      <p class="note"><span class="eyebrow">About the visuals</span>TiriVelo is still in active development, so the product screens stay internal for now. This page focuses on the problems, my approach and what I learned.</p>
+
+      <h2 class="sr-only">Summary</h2>
+      <div class="tldr">
+        <div class="tldr__card">
+          <h3>Problem</h3>
+          <p>People couldn't see what they'd actually pay until late in the booking, and the payment step mixed unclear options with a long form that was always open.</p>
+        </div>
+        <div class="tldr__card">
+          <h3>Solution</h3>
+          <p>A clearer booking and checkout flow: the full price shown upfront, fees explained, payment methods that are easy to tell apart, and a plan for every error case.</p>
+        </div>
+        <div class="tldr__card tldr__card--dark">
+          <h3>Outcome</h3>
+          <p>My designs went through TiriVelo's internal design review and were passed to the development team as part of their build process.</p>
+        </div>
+      </div>
+
+      <!-- Role -->
+      <section class="cs-section">
+        <div class="cs-grid">
+          <div class="cs-label"><span class="eyebrow">Context</span><h2>My role</h2></div>
+          <div>
+            <div class="prose">
+              <p>During a three-month internship with a Canadian startup, our design team first audited the existing product together. After the audit, each designer took ownership of a part of the experience.</p>
+            </div>
+            <div class="role">
+              <div class="role__card">
+                <h3>As a team</h3>
+                <ul class="list"><li>UX audit of the existing product</li><li>Prioritising issues</li><li>Weekly reviews with the team lead and founder</li></ul>
+              </div>
+              <div class="role__card role__card--mine">
+                <h3>My scope</h3>
+                <ul class="list"><li>Booking request and checkout</li><li>Payment methods and saved cards</li><li>Error and edge states</li><li>Subscription plans page</li><li>Pet owner profile</li></ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Approach -->
+      <section class="cs-section">
+        <div class="cs-grid">
+          <div class="cs-label"><span class="eyebrow">Approach</span><h2>Design for trust</h2></div>
+          <div class="prose">
+            <p>TiriVelo asks people to commit money and trust someone with their pet in the same moment. So every UI decision had to build trust. I gave checkout a clear step structure, made the total the strongest element on the page and kept continue, edit and confirm in the same places, so users always know what happens next.</p>
+            <p class="muted">I aligned components, spacing and interaction patterns with the rest of the product, and iterated through weekly reviews until the screens met development constraints.</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- What I worked on -->
+      <section class="cs-section">
+        <div class="cs-grid">
+          <div class="cs-label"><span class="eyebrow">The work</span><h2>Problems &amp; decisions</h2></div>
+          <div class="prose">
+            <p>The audit gave us a long list of issues. These are the ones in my scope, and how I approached each of them.</p>
+          </div>
+        </div>
+        <div class="areas">
+          <div class="area">
+            <div><span class="kicker">01</span><h3>Booking request</h3></div>
+            <div><span class="eyebrow">Problem</span><ul><li>Users saw an estimated total, with taxes added later.</li><li>Fees had no explanation.</li><li>The next step wasn't obvious.</li></ul></div>
+            <div><span class="eyebrow">My approach</span><ul><li>Show the full price before checkout, taxes included.</li><li>Explain each fee right where it appears.</li><li>Tell users when they will be charged.</li><li>One clear primary action, with a way back.</li></ul></div>
+          </div>
+          <div class="area">
+            <div><span class="kicker">02</span><h3>Checkout &amp; payment</h3></div>
+            <div><span class="eyebrow">Problem</span><ul><li>Payment options looked alike and were easy to confuse.</li><li>The card form was always open, even for returning users.</li><li>The main action was hard to find.</li></ul></div>
+            <div><span class="eyebrow">My approach</span><ul><li>Make each payment method clearly distinct.</li><li>Let returning users pick a saved card and only open the form for a new one.</li><li>Put the summary, cancellation terms and confirm action in a predictable order.</li></ul></div>
+          </div>
+          <div class="area">
+            <div><span class="kicker">03</span><h3>Edge cases</h3></div>
+            <div><span class="eyebrow">Problem</span><ul><li>The flow only covered the happy path.</li><li>Developers had no answer for errors or interruptions.</li></ul></div>
+            <div><span class="eyebrow">My approach</span><ul><li>Design every state: invalid details, expired cards, a disabled confirm button.</li><li>Warn users before they leave checkout and lose what they entered.</li><li>Write error messages that say what to fix.</li></ul></div>
+          </div>
+          <div class="area">
+            <div><span class="kicker">04</span><h3>Subscription plans</h3></div>
+            <div><span class="eyebrow">Problem</span><ul><li>Plans were hard to compare.</li><li>Billing details were easy to misread.</li></ul></div>
+            <div><span class="eyebrow">My approach</span><ul><li>Side-by-side comparison with benefits written the same way for every plan.</li><li>Billing cues placed upfront, next to each price.</li></ul></div>
+          </div>
+          <div class="area">
+            <div><span class="kicker">05</span><h3>Pet owner profile</h3></div>
+            <div><span class="eyebrow">Problem</span><ul><li>Photos took over the page.</li><li>Users couldn't tell what was missing from their profile.</li></ul></div>
+            <div><span class="eyebrow">My approach</span><ul><li>A completion indicator with one clear next step.</li><li>Tabs to separate profile, pets, plan and settings.</li><li>Personal and contact details grouped in one place.</li></ul></div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Impact -->
+      <section class="cs-section">
+        <div class="cs-grid">
+          <div class="cs-label"><span class="eyebrow">Impact</span><h2>Results</h2></div>
+          <div>
+            <div class="stats">
+              <div class="stat"><div class="stat__num">Accepted</div><p>Checkout designs accepted in TiriVelo's internal design review</p></div>
+              <div class="stat"><div class="stat__num">Passed on</div><p>Plans page passed to the development team as part of their build process</p></div>
+              <div class="stat"><div class="stat__num"><span class="italic">Weekly</span></div><p>Reviews with the team lead and founder that sped up iteration</p></div>
+            </div>
+            <div class="prose block">
+              <p>My work helped move booking and checkout from concept screens towards development-ready flows within the team's process. Clear pricing at the point of purchase lowers the risk of people dropping off, asking for refunds or writing to support. And because the patterns match the rest of the product, the team can build faster.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Reflection -->
+      <section class="cs-section">
+        <div class="cs-grid">
+          <div class="cs-label"><span class="eyebrow">Reflection</span><h2>What I learned</h2></div>
+          <div class="prose">
+            <ul class="list">
+              <li>Small inconsistencies in labels and component behaviour quickly turn into trust issues during payment and plan selection.</li>
+              <li>Stakeholder reviews work best when I bring specific options and trade-offs, not just one polished direction.</li>
+              <li>Designing for development means writing down assumptions early, especially for edits, cancellations and price changes.</li>
+            </ul>
+            <p class="lead-in">Next steps</p>
+            <ul class="list">
+              <li>Usability-test the new checkout and plans to confirm users understand totals, billing frequency and next steps.</li>
+              <li>Create a lightweight design system page in Figma for shared components and content patterns.</li>
+              <li>Define success metrics with the founder, then track funnel drop-off and support tickets after release.</li>
+            </ul>
+            <div class="chips block">
+              <span class="chip">UX audit</span><span class="chip">Checkout &amp; payments</span><span class="chip">Edge cases</span><span class="chip">Stakeholder reviews</span><span class="chip">Developer handoff</span><span class="chip">Web UI</span>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <a href="roomscout.html" class="next">
+      <div class="wrap">
+        <div>
+          <p class="eyebrow">Next case</p>
+          <p class="next__title">RoomScout →</p>
+        </div>
+        <span class="case__link">London room rentals with no surprises</span>
+      </div>
+    </a>
+  </main>
+
+  <footer class="footer" id="contact">
+    <div class="wrap">
+      <h2 class="footer__cta">Let's create something <span class="italic">useful</span></h2>
+      <div class="footer__grid">
+        <div>
+          <p class="footer__label">Email</p>
+          <a class="footer__email" href="mailto:anastasiia.postryhan@gmail.com">anastasiia.postryhan@gmail.com</a>
+        </div>
+        <div>
+          <p class="footer__label">Elsewhere</p>
+          <a href="https://uk.linkedin.com/in/anastasiia-postryhan-ux" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a>
+        </div>
+        <div>
+          <p class="footer__label">Based in</p>
+          <p>London, UK</p>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <span>© 2026 Anastasiia Postryhan</span>
+        <a href="#" onclick="window.scrollTo({top:0});return false;">Back to top ↑</a>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
