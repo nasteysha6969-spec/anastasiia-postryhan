@@ -21,8 +21,9 @@
   <meta name="twitter:description" content="A London room rental concept where every room is checked in person and every price is shown all in. Designed and built as a live site.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Instrument+Serif:ital@0;1&family=Inter:wght@400;500&family=Fraunces:ital,wght@0,400;1,300&family=Manrope:wght@400;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css?v=23">
+  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Anton&family=Instrument+Serif:ital@0;1&family=Inter:wght@400;500&family=Fraunces:ital,wght@0,400;1,300&family=Manrope:wght@400;700&display=swap" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anton&family=Instrument+Serif:ital@0;1&family=Inter:wght@400;500&family=Fraunces:ital,wght@0,400;1,300&family=Manrope:wght@400;700&display=swap"></noscript>
+  <link rel="stylesheet" href="styles.css?v=25">
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
   <link rel="icon" href="favicon-32.png" type="image/png" sizes="32x32">
   <link rel="apple-touch-icon" href="apple-touch-icon.png">
@@ -66,7 +67,7 @@
     <div class="wrap">
       <div class="cover-d cover-d--wide">
         <span class="cover-d__num">03</span>
-        <div class="cover-d__shot"><img src="assets/rs/og.jpg" alt="RoomScout hero: London rooms with no surprises, with a verified room card priced at £1,190 a month all in" width="1200" height="630"></div>
+        <div class="cover-d__shot"><img src="assets/rs/og.jpg?v=2" alt="RoomScout hero: London rooms with no surprises, with a verified room card priced at £1,190 a month all in" width="1200" height="630"></div>
       </div>
 
       <h2 class="sr-only">Summary</h2>
@@ -161,27 +162,27 @@
         <div class="features">
           <div class="feature">
             <div class="feature__text"><span class="kicker">01</span><h3>Search comes first</h3><p>The search bar is the first block after the hero. Area works by zone, popular area or postcode. Budget is all in, with a histogram and a range slider that shows how many rooms fit. Move-in is a real calendar instead of a text field.</p></div>
-            <div class="feature__media"><figure class="ui-shot"><div class="ui-shot__frame"><img src="assets/rs/ui-budget.jpg" alt="Budget popover with a price histogram, range slider and 27 verified rooms in range" loading="lazy" width="1600" height="1041"></div><figcaption>Budget, all in: the histogram shows where most rooms sit.</figcaption></figure><figure class="ui-shot"><div class="ui-shot__frame"><img src="assets/rs/ui-calendar.jpg" alt="Move-in calendar with As soon as possible and I'm flexible options" loading="lazy" width="1600" height="1041"></div><figcaption>Move in: a calendar with quick options for flexible renters.</figcaption></figure></div>
+            <div class="feature__media"><figure class="ui-shot"><div class="ui-shot__frame"><img src="assets/rs/ui-budget-1100.jpg" srcset="assets/rs/ui-budget-1100.jpg 1100w, assets/rs/ui-budget.jpg 1600w" sizes="(max-width: 860px) 92vw, 700px" alt="Budget popover with a price histogram, range slider and 27 verified rooms in range" loading="lazy" width="1600" height="1041"></div><figcaption>Budget, all in: the histogram shows where most rooms sit.</figcaption></figure><figure class="ui-shot"><div class="ui-shot__frame"><img src="assets/rs/ui-calendar-1100.jpg" srcset="assets/rs/ui-calendar-1100.jpg 1100w, assets/rs/ui-calendar.jpg 1600w" sizes="(max-width: 860px) 92vw, 700px" alt="Move-in calendar with As soon as possible and I'm flexible options" loading="lazy" width="1600" height="1041"></div><figcaption>Move in: a calendar with quick options for flexible renters.</figcaption></figure></div>
           </div>
           <div class="feature">
             <div class="feature__text"><span class="kicker">02</span><h3>Prices with nothing hidden</h3><p>Every card shows the all-in price and the date the room was verified. Inside the room, the monthly price is broken into rent, bills and council tax, and the upfront cost is spelled out: first month plus a deposit of no more than one month's rent.</p></div>
-            <div class="feature__media"><figure class="ui-shot"><div class="ui-shot__frame"><img src="assets/rs/ui-price.jpg" alt="Room details with a monthly price breakdown and the upfront total" loading="lazy" width="1600" height="1041"></div><figcaption>The breakdown answers the question renters ask most: what will I actually pay?</figcaption></figure></div>
+            <div class="feature__media"><figure class="ui-shot"><div class="ui-shot__frame"><img src="assets/rs/ui-price-1100.jpg" srcset="assets/rs/ui-price-1100.jpg 1100w, assets/rs/ui-price.jpg 1600w" sizes="(max-width: 860px) 92vw, 700px" alt="Room details with a monthly price breakdown and the upfront total" loading="lazy" width="1600" height="1041"></div><figcaption>The breakdown answers the question renters ask most: what will I actually pay?</figcaption></figure></div>
           </div>
           <div class="feature">
             <div class="feature__text"><span class="kicker">03</span><h3>Viewing in two taps</h3><p>A room opens in a pop-up with the photo, the verified date, the walk to the station and who you'd live with. The booking button stays pinned at the bottom, and booking is three steps in the same window, ending with "Add to calendar".</p></div>
-            <div class="feature__media"><figure class="ui-shot"><div class="ui-shot__frame"><img src="assets/rs/ui-room.jpg" alt="Room pop-up with verified badge, location, details and a pinned Book a viewing button" loading="lazy" width="1600" height="1041"></div><figcaption>The room pop-up keeps the price and the main action always in view.</figcaption></figure></div>
+            <div class="feature__media"><figure class="ui-shot"><div class="ui-shot__frame"><img src="assets/rs/ui-room-1100.jpg" srcset="assets/rs/ui-room-1100.jpg 1100w, assets/rs/ui-room.jpg 1600w" sizes="(max-width: 860px) 92vw, 700px" alt="Room pop-up with verified badge, location, details and a pinned Book a viewing button" loading="lazy" width="1600" height="1041"></div><figcaption>The room pop-up keeps the price and the main action always in view.</figcaption></figure></div>
           </div>
           <div class="feature">
             <div class="feature__text"><span class="kicker">04</span><h3>Filters people use</h3><p>I based the filters on SpareRoom's advanced search and the features renters ask for most on Zoopla: garden, parking, balcony, pets. The button at the bottom counts matching rooms live, so nobody hits an empty page.</p></div>
-            <div class="feature__media"><figure class="ui-shot"><div class="ui-shot__frame"><img src="assets/rs/ui-filters.jpg" alt="Filters panel with room type, London zone, walk to the station and amenities" loading="lazy" width="1600" height="1041"></div><figcaption>Filters slide in from the side and count results as you go.</figcaption></figure></div>
+            <div class="feature__media"><figure class="ui-shot"><div class="ui-shot__frame"><img src="assets/rs/ui-filters-1100.jpg" srcset="assets/rs/ui-filters-1100.jpg 1100w, assets/rs/ui-filters.jpg 1600w" sizes="(max-width: 860px) 92vw, 700px" alt="Filters panel with room type, London zone, walk to the station and amenities" loading="lazy" width="1600" height="1041"></div><figcaption>Filters slide in from the side and count results as you go.</figcaption></figure></div>
           </div>
           <div class="feature">
             <div class="feature__text"><span class="kicker">05</span><h3>How it works, shown</h3><p>Four short steps, each paired with a small product screen that switches automatically. People see the process instead of reading a wall of text.</p></div>
-            <div class="feature__media"><figure class="ui-shot"><div class="ui-shot__frame"><img src="assets/rs/ui-how.jpg" alt="How it works section with four steps and a Welcome home card" loading="lazy" width="1600" height="1041"></div><figcaption>Step four: contract signed, deposit protected, support on call.</figcaption></figure></div>
+            <div class="feature__media"><figure class="ui-shot"><div class="ui-shot__frame"><img src="assets/rs/ui-how-1100.jpg" srcset="assets/rs/ui-how-1100.jpg 1100w, assets/rs/ui-how.jpg 1600w" sizes="(max-width: 860px) 92vw, 700px" alt="How it works section with four steps and a Welcome home card" loading="lazy" width="1600" height="1041"></div><figcaption>Step four: contract signed, deposit protected, support on call.</figcaption></figure></div>
           </div>
           <div class="feature">
             <div class="feature__text"><span class="kicker">06</span><h3>Alerts as a sentence</h3><p>"Email me when a room in London under £1,300 all in is free any time." Each underlined word is a control, so setting up an alert reads like plain English. It picks up whatever the renter already chose in search.</p></div>
-            <div class="feature__media"><figure class="ui-shot"><div class="ui-shot__frame"><img src="assets/rs/ui-alerts.jpg" alt="Room alerts written as a sentence with underlined editable words over a London street video" loading="lazy" width="1600" height="1041"></div><figcaption>Each underlined word opens a small menu.</figcaption></figure></div>
+            <div class="feature__media"><figure class="ui-shot"><div class="ui-shot__frame"><img src="assets/rs/ui-alerts-1100.jpg" srcset="assets/rs/ui-alerts-1100.jpg 1100w, assets/rs/ui-alerts.jpg 1600w" sizes="(max-width: 860px) 92vw, 700px" alt="Room alerts written as a sentence with underlined editable words over a London street video" loading="lazy" width="1600" height="1041"></div><figcaption>Each underlined word opens a small menu.</figcaption></figure></div>
           </div>
         </div>
       </section>
@@ -308,6 +309,7 @@
         <div>
           <p class="footer__label">Elsewhere</p>
           <a href="https://uk.linkedin.com/in/anastasiia-postryhan-ux" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a>
+          <a href="Anastasiia_Postryhan_CV.pdf" target="_blank" rel="noopener noreferrer">CV (PDF) ↗</a>
         </div>
         <div>
           <p class="footer__label">Based in</p>

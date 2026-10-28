@@ -21,8 +21,9 @@
   <meta name="twitter:description" content="Anastasiia Postryhan is a junior UX/UI designer in London with a Professional Diploma in UX Design from UX Design Institute.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Instrument+Serif:ital@0;1&family=Inter:wght@400;500&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css?v=23">
+  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Anton&family=Instrument+Serif:ital@0;1&family=Inter:wght@400;500&display=swap" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anton&family=Instrument+Serif:ital@0;1&family=Inter:wght@400;500&display=swap"></noscript>
+  <link rel="stylesheet" href="styles.css?v=25">
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
   <link rel="icon" href="favicon-32.png" type="image/png" sizes="32x32">
   <link rel="apple-touch-icon" href="apple-touch-icon.png">
@@ -50,7 +51,7 @@
           <p class="about-hero__lead">I'm Anastasiia, a junior UX/UI designer in London. I enjoy figuring out why something doesn't work for people, and then making it simple.</p>
         </div>
         <div class="arch">
-          <img width="1086" height="1448" fetchpriority="high" src="assets/anastasiia.webp" alt="Portrait of Anastasiia Postryhan">
+          <img width="1086" height="1448" fetchpriority="high" src="assets/anastasiia-750.jpg" srcset="assets/anastasiia-480.jpg 480w, assets/anastasiia-750.jpg 750w, assets/anastasiia.webp 1086w" sizes="(max-width: 640px) 320px, (max-width: 960px) 45vw, 420px" alt="Portrait of Anastasiia Postryhan">
         </div>
       </div>
     </section>
@@ -64,6 +65,7 @@
             <p>What drew me to UX/UI is the idea of solving real problems. I like working with people. I listen to their feedback, watch where they get stuck and fix those moments one at a time.</p>
             <p>I also enjoy the visual side: getting the layout right, finding the right hierarchy, and deciding how everything should look and feel so the interface is clear at a glance.</p>
             <p class="muted">I earned a Professional Diploma in UX Design from UX Design Institute, then joined a Canadian startup as a design intern, where my checkout and plans designs went through the team's internal design review and on to development. Now I'm deepening my UI skills and learning to bring AI tools into my design workflow.</p>
+            <div class="links"><a class="btn btn--dark" href="Anastasiia_Postryhan_CV.pdf" target="_blank" rel="noopener noreferrer">Download CV <span class="btn__dot">↗</span></a></div>
           </div>
         </div>
       </section>
@@ -88,7 +90,7 @@
             <li>
               <span class="timeline-v__year">2025 to 2026</span>
               <h3>Professional Diploma in UX Design, UX Design Institute</h3>
-              <p>The full UX process, from research and usability testing to wireframes and prototypes. Awarded in August 2026, with 40 SCQF credits at Level 8, credit-rated by Glasgow Caledonian University. Diploma project: DriveNow.</p>
+              <p>The full UX process, from research and usability testing to wireframes and prototypes. Awarded in May 2026, with 40 SCQF credits at Level 8, credit-rated by Glasgow Caledonian University. Diploma project: DriveNow.</p>
               <div class="links"><a class="link" href="https://credsverse.com/credentials/7c8d25b3-f5bb-4bb6-938a-4db3391b6199" target="_blank" rel="noopener noreferrer">View credential ↗</a><a class="link" href="drivenow.html">See the case →</a></div>
             </li>
             <li>
@@ -144,6 +146,7 @@
         <div>
           <p class="footer__label">Elsewhere</p>
           <a href="https://uk.linkedin.com/in/anastasiia-postryhan-ux" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a>
+          <a href="Anastasiia_Postryhan_CV.pdf" target="_blank" rel="noopener noreferrer">CV (PDF) ↗</a>
         </div>
         <div>
           <p class="footer__label">Based in</p>
